@@ -16,16 +16,19 @@ void loop()
   {
     digitalWrite(LED,HIGH); // if val is getting larger than 255 then we are going to on the LED programatically for 3 seconds.
     delay(3000);
+    digitalWrite(LED,LOW);
   }
   else if(val>350)
   {
     digitalWrite(LED,HIGH); 
     delay(5000);
+    digitalWrite(LED,LOW);
   }
   else if(val>500)
   {
     digitalWrite(LED,HIGH);
     delay(7000);
+    digitalWrite(LED,LOW);
   }
   else
   {
